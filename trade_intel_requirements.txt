@@ -1,0 +1,43 @@
+# Trade Intelligence Platform - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Vector database clients
+pinecone-client==3.0.3
+# weaviate-client==4.4.0  # Uncomment if using Weaviate
+# pymilvus==2.3.5  # Uncomment if using Milvus
+
+# Embedding models
+openai==1.10.0
+sentence-transformers==2.3.1
+torch==2.1.2  # Required for sentence-transformers
+
+# RAG frameworks
+llama-index==0.10.11
+llama-index-vector-stores-pinecone==0.1.6
+llama-index-embeddings-openai==0.1.6
+llama-index-llms-openai==0.1.6
+
+# Alternative RAG framework (uncomment if preferred)
+# langchain==0.1.6
+# langchain-openai==0.0.5
+# langchain-pinecone==0.0.3
+
+# Configuration
+configparser==6.0.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional: Data visualization and analysis
+# matplotlib==3.8.2
+# seaborn==0.13.1
+# plotly==5.18.0
